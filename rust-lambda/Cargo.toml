@@ -1,0 +1,19 @@
+[package]
+name = "rust-lambda"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lambda_runtime = "0.8.3"
+tokio = { version = "1.0", features = ["macros"] }
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+aws-config = "0.55"
+aws-sdk-dynamodb = "0.55"
+aws-sdk-s3 = "0.55"
+
+[[bin]]
+name = "bootstrap"
+path = "src/main.rs" 

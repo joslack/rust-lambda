@@ -1,0 +1,11 @@
+error[E0463]: can't find crate for `std`
+  |
+  = note: the `aarch64-unknown-linux-gnu` target may not be installed
+  = help: consider downloading the target with `rustup target add aarch64-unknown-linux-gnu`
+
+error[E0463]: can't find crate for `core`
+  |
+  = note: the `aarch64-unknown-linux-gnu` target may not be installed
+  = help: consider downloading the target with `rustup target add aarch64-unknown-linux-gnu`
+
+warning: autocfg could not probe for `std`
