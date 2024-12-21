@@ -1,2 +1,5 @@
-# rust-lambda
-An AWS lambda written in rust, infra configured with the AWS typescript CDK
+# Rust Lambda with CDK
+
+This project demonstrates setting up a Rust AWS Lambda function with comprehensive logging, monitoring, and infrastructure defined using AWS CDK.
+
+## Project Structure
